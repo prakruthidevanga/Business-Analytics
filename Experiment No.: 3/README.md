@@ -1,4 +1,4 @@
-#📊 Retail Sales & Profit Performance Dashboard
+# 📊 Retail Sales & Profit Performance Dashboard
 
 ## 📌 Project Overview
 
