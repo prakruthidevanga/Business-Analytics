@@ -1,62 +1,75 @@
-# README – Retail Sales & Profit Performance Dashboard
+# 📊 Retail Sales & Profit Performance Dashboard
 
-## 📊 Project Overview
+## 📌 Project Overview
 
-The **Retail Sales & Profit Performance Dashboard** is an interactive Power BI project developed to analyze retail business performance. It combines data from a **MySQL retail database** and the **Kaggle Sample Superstore dataset** to provide centralized insights into sales, profit, customers, products, and regional performance. 
+The **Retail Sales & Profit Performance Dashboard** is an interactive Power BI project developed to analyze retail business performance. The dashboard provides insights into sales, profit, orders, customers, products, categories, and regional performance.
+
+The project combines data from a **MySQL database** and the **Kaggle Sample Superstore dataset**, creating a centralized solution for business analysis.
 
 ## 🎯 Objectives
 
-* Analyze total sales, profit, orders, and profit margin.
-* Identify top-performing customers and products.
-* Compare sales across categories, segments, cities, and states.
-* Analyze monthly sales and profit trends.
-* Provide interactive filters for business analysis.
-* Support faster and data-driven decision-making.
+- Analyze sales, profit, orders, and profit margin.
+- Identify top-performing customers and products.
+- Compare sales across categories, segments, cities, and states.
+- Analyze monthly sales and profit trends.
+- Provide interactive filters for better analysis.
+- Support data-driven business decisions.
 
-## 🛠️ Technologies Used
+## 🛠️ Tools & Technologies
 
-* **Power BI** – Dashboard development and visualization
-* **MySQL** – Database creation and management
-* **Power Query** – Data cleaning and transformation
-* **DAX** – Measures and calculations
-* **Kaggle** – Sample Superstore dataset
+- **Power BI** – Dashboard and data visualization
+- **MySQL** – Database management
+- **Power Query** – Data cleaning and transformation
+- **DAX** – Measures and calculations
+- **Kaggle** – Sample Superstore dataset
 
-## 🔄 Methodology
+## 🔄 Project Workflow
 
-1. Created and populated the **retail_analytics** MySQL database.
+1. Created and populated the MySQL `retail_analytics` database.
 2. Connected MySQL tables to Power BI.
-3. Imported the Kaggle CSV dataset.
-4. Cleaned and transformed the data using Power Query.
+3. Imported the Kaggle Superstore CSV dataset.
+4. Cleaned and transformed data using Power Query.
 5. Created relationships and a star-schema data model.
-6. Developed DAX measures for key performance indicators.
-7. Designed interactive dashboards using charts, maps, KPI cards, and slicers.  
+6. Developed DAX measures.
+7. Designed interactive dashboards using KPI cards, charts, maps, and slicers.
 
 ## 📈 Dashboard Features
 
-* **KPI Cards:** Total Sales, Total Profit, Total Orders, Profit Margin
-* **Customer Analysis:** Customer ranking and segment-wise analysis
-* **Product Analysis:** Category and product-wise sales performance
-* **Regional Analysis:** Sales by state and city
-* **Trend Analysis:** Monthly sales and profit trends
-* **Interactive Filters:** Month, Category, City/State, and Ship Mode 
+### Page 1 – Retail Sales & Profit Performance
+- Total Sales
+- Total Orders
+- Total Profit
+- Profit Margin %
+- Sales by Category
+- Sales by City and State
+- Monthly Sales & Profit Trends
+- Sales by Customer Segment
+- Interactive filters
 
-## 🔍 Key Insights
+### Page 2 – Customer & Product Analysis
+- Customer-wise Sales Analysis
+- Most Valuable Customers
+- Product-wise Sales Analysis
+- Top and Low-performing Products
+- Customer and Product Insights
 
-* **Total Sales:** ₹1,55,430
-* **Total Profit:** ₹27,726.15
-* **Profit Margin:** 17.84%
-* **Total Orders:** 20
-* **Average Order Value:** ₹7,771.50
-* **Technology** is the highest-performing category.
-* **June** recorded the highest monthly sales.
-* **Amit Patel, Priya Singh, and Neha Gupta** are among the top customers. 
+## 🔑 Key Insights
 
-## ✅ Conclusion
+- **Total Sales:** ₹1,55,430
+- **Total Profit:** ₹27,726.15
+- **Profit Margin:** 17.84%
+- **Total Orders:** 20
+- **Average Order Value:** ₹7,771.50
+- **Technology** is the top-performing category.
+- **June** recorded the highest monthly sales.
+- Top customers include **Amit Patel, Priya Singh, and Neha Gupta**.
 
-The project successfully combines **MySQL and Kaggle data in Power BI** to create a centralized and interactive retail analytics solution. The dashboard enables management to monitor performance, identify trends, evaluate customers and products, and make **data-driven business decisions**. 
+📊 Outcome
 
-## 👩‍💻 Author
+The project successfully integrates MySQL and Kaggle data into Power BI to provide a centralized and interactive retail analytics solution. It helps users monitor business performance, identify trends, evaluate customers and products, and make informed decisions.
 
-**Prakruthi BR**
+👩‍💻 Author
+
+Prakruthi BR
 BCA – Business Analytics
 Alliance University
